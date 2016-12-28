@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Discuss
 
 To start your Phoenix app:
@@ -18,3 +19,7 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+=======
+# phoenix-discuss
+A simple restful app in elixir/phoenix
+>>>>>>> d25f11d98045edd779ce7ab48a377c5da679775d
