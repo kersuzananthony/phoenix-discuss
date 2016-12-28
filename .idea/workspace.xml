@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59aedf84-d14f-43a4-9f7a-b5f477174d22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/templates/topic/edit.html.eex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/templates/topic/show.html.eex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/topic_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/topic_controller.ex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/router.ex" afterPath="$PROJECT_DIR$/web/router.ex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/topic/index.html.eex" afterPath="$PROJECT_DIR$/web/templates/topic/index.html.eex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.exs" afterPath="$PROJECT_DIR$/config/config.exs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix.exs" afterPath="$PROJECT_DIR$/mix.exs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix.lock" afterPath="$PROJECT_DIR$/mix.lock" />
     </list>
     <ignored path="discuss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.eex" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/templates/topic/index.html.eex">
+      <file leaf-file-name="errors.pot" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/priv/gettext/errors.pot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+            <state relative-caret-position="280">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -61,6 +58,8 @@
         <option value="$PROJECT_DIR$/web/router.ex" />
         <option value="$PROJECT_DIR$/web/controllers/topic_controller.ex" />
         <option value="$PROJECT_DIR$/web/templates/topic/index.html.eex" />
+        <option value="$PROJECT_DIR$/mix.exs" />
+        <option value="$PROJECT_DIR$/config/config.exs" />
       </list>
     </option>
   </component>
@@ -313,25 +312,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuss" />
+              <option name="myItemId" value="priv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discuss" />
+              <option name="myItemId" value="gettext" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -481,12 +466,12 @@
       <workItem from="1482511755661" duration="1098000" />
       <workItem from="1482592024488" duration="11509000" />
       <workItem from="1482685673293" duration="81000" />
-      <workItem from="1482927597067" duration="7230000" />
+      <workItem from="1482927597067" duration="8599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25419000" />
+    <option name="totallyTimeSpent" value="26788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -595,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.exs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/prod.secret.exs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -640,13 +618,6 @@
     <entry file="file://$PROJECT_DIR$/priv/gettext/en/LC_MESSAGES/errors.po">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-666">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/priv/gettext/errors.pot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -894,6 +865,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mix.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+          <folding>
+            <marker date="1482943151000" expanded="true" signature="26:1741" placeholder="do: ..." />
+            <marker date="1482943151000" expanded="true" signature="35:46" placeholder="..." />
+            <marker date="1482943151000" expanded="true" signature="62:358" placeholder="do: ..." />
+            <marker date="1482943151000" expanded="true" signature="479:680" placeholder="do: ..." />
+            <marker date="1482943151000" expanded="true" signature="957:1292" placeholder="do: ..." />
+            <marker date="1482943151000" expanded="true" signature="1540:1737" placeholder="do: ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deps/phoenix/lib/phoenix/config.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1478798383000" expanded="true" signature="25:3757" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="256:261" placeholder="&quot;...&quot;" />
+            <marker date="1478798383000" expanded="true" signature="269:278" placeholder="..." />
+            <marker date="1478798383000" expanded="true" signature="287:338" placeholder="&quot;...&quot;" />
+            <marker date="1478798383000" expanded="true" signature="395:475" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="484:547" placeholder="&quot;...&quot;" />
+            <marker date="1478798383000" expanded="true" signature="567:663" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="672:720" placeholder="&quot;...&quot;" />
+            <marker date="1478798383000" expanded="true" signature="751:806" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="815:1200" placeholder="&quot;...&quot;" />
+            <marker date="1478798383000" expanded="true" signature="1237:1265" placeholder="-&gt; ..." />
+            <marker date="1478798383000" expanded="true" signature="1306:1587" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="1343:1581" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="1374:1380" placeholder="-&gt; ..." />
+            <marker date="1478798383000" expanded="true" signature="1390:1573" placeholder="-&gt; ..." />
+            <marker date="1478798383000" expanded="true" signature="1419:1573" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="1446:1516" placeholder="-&gt; ..." />
+            <marker date="1478798383000" expanded="true" signature="1543:1561" placeholder="-&gt; ..." />
+            <marker date="1478798383000" expanded="true" signature="1596:1650" placeholder="&quot;...&quot;" />
+            <marker date="1478798383000" expanded="true" signature="1712:1776" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="1785:1913" placeholder="&quot;...&quot;" />
+            <marker date="1478798383000" expanded="true" signature="1956:2046" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="2055:2318" placeholder="&quot;...&quot;" />
+            <marker date="1478798383000" expanded="true" signature="2365:2487" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="2544:2754" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="2837:3105" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="2849:3099" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="2884:2977" placeholder="-&gt; ..." />
+            <marker date="1478798383000" expanded="true" signature="3002:3035" placeholder="-&gt; ..." />
+            <marker date="1478798383000" expanded="true" signature="3047:3091" placeholder="-&gt; ..." />
+            <marker date="1478798383000" expanded="true" signature="3159:3194" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="3235:3364" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="3291:3358" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="3396:3582" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="3602:3643" placeholder="do: ..." />
+            <marker date="1478798383000" expanded="true" signature="3675:3753" placeholder="do: ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+          <folding>
+            <marker date="1482943755000" expanded="true" signature="223:233" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/priv/gettext/errors.pot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>
