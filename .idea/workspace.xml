@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59aedf84-d14f-43a4-9f7a-b5f477174d22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/models/comment.ex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/topic_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/topic_controller.ex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/models/topic.ex" afterPath="$PROJECT_DIR$/web/models/topic.ex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/models/user.ex" afterPath="$PROJECT_DIR$/web/models/user.ex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/topic/index.html.eex" afterPath="$PROJECT_DIR$/web/templates/topic/index.html.eex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/topic/show.html.eex" afterPath="$PROJECT_DIR$/web/templates/topic/show.html.eex" />
     </list>
     <ignored path="discuss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="comment.ex" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/models/comment.ex">
+      <file leaf-file-name="index.html.eex" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/templates/topic/index.html.eex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -68,11 +63,11 @@
         <option value="$PROJECT_DIR$/priv/repo/migrations/20161228211135_add_user_id_to_topics.exs" />
         <option value="$PROJECT_DIR$/web/controllers/topic_controller.ex" />
         <option value="$PROJECT_DIR$/web/templates/topic/show.html.eex" />
-        <option value="$PROJECT_DIR$/web/templates/topic/index.html.eex" />
         <option value="$PROJECT_DIR$/priv/repo/migrations/20161228220629_create_comments.exs" />
         <option value="$PROJECT_DIR$/web/models/topic.ex" />
         <option value="$PROJECT_DIR$/web/models/user.ex" />
         <option value="$PROJECT_DIR$/web/models/comment.ex" />
+        <option value="$PROJECT_DIR$/web/templates/topic/index.html.eex" />
       </list>
     </option>
   </component>
@@ -389,12 +384,12 @@
       <workItem from="1482511755661" duration="1098000" />
       <workItem from="1482592024488" duration="11509000" />
       <workItem from="1482685673293" duration="81000" />
-      <workItem from="1482927597067" duration="21816000" />
+      <workItem from="1482927597067" duration="22820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40005000" />
+    <option name="totallyTimeSpent" value="41009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -812,35 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/plugs/set_user.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <marker date="1482956727000" expanded="true" signature="32:405" placeholder="do: ..." />
-            <marker date="1482956727000" expanded="true" signature="44:81" placeholder="..." />
-            <marker date="1482956727000" expanded="true" signature="91:124" placeholder="..." />
-            <marker date="1482956727000" expanded="true" signature="146:154" placeholder="do: ..." />
-            <marker date="1482956727000" expanded="true" signature="182:401" placeholder="do: ..." />
-            <marker date="1482956727000" expanded="true" signature="237:395" placeholder="do: ..." />
-            <marker date="1482956727000" expanded="true" signature="288:332" placeholder="-&gt; ..." />
-            <marker date="1482956727000" expanded="true" signature="344:387" placeholder="-&gt; ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/controllers/session_controller.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/layout/app.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -895,60 +865,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/router.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <marker date="1482957217000" expanded="true" signature="25:1084" placeholder="do: ..." />
-            <marker date="1482957217000" expanded="true" signature="34:54" placeholder="..." />
-            <marker date="1482957217000" expanded="true" signature="76:257" placeholder="do: ..." />
-            <marker date="1482957217000" expanded="true" signature="275:311" placeholder="do: ..." />
-            <marker date="1482957217000" expanded="true" signature="334:767" placeholder="do: ..." />
-            <marker date="1482957217000" expanded="true" signature="794:978" placeholder="do: ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/topic_controller.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <marker date="1482962585000" expanded="true" signature="34:2591" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="45:58" placeholder="..." />
-            <marker date="1482962585000" expanded="true" signature="66:90" placeholder="..." />
-            <marker date="1482962585000" expanded="true" signature="292:375" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="435:526" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="573:673" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="732:1199" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="896:1193" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="919:1042" placeholder="-&gt; ..." />
-            <marker date="1482962585000" expanded="true" signature="1069:1185" placeholder="-&gt; ..." />
-            <marker date="1482962585000" expanded="true" signature="1264:1415" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="1483:1968" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="1621:1961" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="1646:1778" placeholder="-&gt; ..." />
-            <marker date="1482962585000" expanded="true" signature="1807:1952" placeholder="-&gt; ..." />
-            <marker date="1482962585000" expanded="true" signature="2012:2190" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="2274:2587" placeholder="do: ..." />
-            <marker date="1482962585000" expanded="true" signature="2399:2579" placeholder="do: ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/topic/show.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/topic/index.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -996,6 +916,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <marker date="1482963197000" expanded="true" signature="26:336" placeholder="do: ..." />
+            <marker date="1482963197000" expanded="true" signature="35:54" placeholder="..." />
+            <marker date="1482963197000" expanded="true" signature="76:203" placeholder="do: ..." />
+            <marker date="1482963197000" expanded="true" signature="244:332" placeholder="do: ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/router.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <marker date="1482957217000" expanded="true" signature="25:1084" placeholder="do: ..." />
+            <marker date="1482957217000" expanded="true" signature="34:54" placeholder="..." />
+            <marker date="1482957217000" expanded="true" signature="76:257" placeholder="do: ..." />
+            <marker date="1482957217000" expanded="true" signature="275:311" placeholder="do: ..." />
+            <marker date="1482957217000" expanded="true" signature="334:767" placeholder="do: ..." />
+            <marker date="1482957217000" expanded="true" signature="794:978" placeholder="do: ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/layout/app.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/topic_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+          <folding>
+            <marker date="1482962585000" expanded="true" signature="34:2591" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="45:58" placeholder="..." />
+            <marker date="1482962585000" expanded="true" signature="66:90" placeholder="..." />
+            <marker date="1482962585000" expanded="true" signature="292:375" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="435:526" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="573:673" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="732:1199" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="896:1193" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="919:1042" placeholder="-&gt; ..." />
+            <marker date="1482962585000" expanded="true" signature="1069:1185" placeholder="-&gt; ..." />
+            <marker date="1482962585000" expanded="true" signature="1264:1415" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="1483:1968" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="1621:1961" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="1646:1778" placeholder="-&gt; ..." />
+            <marker date="1482962585000" expanded="true" signature="1807:1952" placeholder="-&gt; ..." />
+            <marker date="1482962585000" expanded="true" signature="2012:2190" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="2274:2587" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="2399:2579" placeholder="do: ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/plugs/set_user.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1482956727000" expanded="true" signature="32:405" placeholder="do: ..." />
+            <marker date="1482956727000" expanded="true" signature="44:81" placeholder="..." />
+            <marker date="1482956727000" expanded="true" signature="91:124" placeholder="..." />
+            <marker date="1482956727000" expanded="true" signature="146:154" placeholder="do: ..." />
+            <marker date="1482956727000" expanded="true" signature="182:401" placeholder="do: ..." />
+            <marker date="1482956727000" expanded="true" signature="237:395" placeholder="do: ..." />
+            <marker date="1482956727000" expanded="true" signature="288:332" placeholder="-&gt; ..." />
+            <marker date="1482956727000" expanded="true" signature="344:387" placeholder="-&gt; ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/topic/index.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
