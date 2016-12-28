@@ -3,6 +3,12 @@ defmodule Discuss.TopicController do
 
   use Discuss.Web, :controller
 
+  # GET /topics
+  def index(conn, _params) do
+    topics = Repo.all(Topic)
+    render conn, "index.html", topics: topics
+  end
+
   # GET /topics/new
   def new(conn, _params) do
     changeset = Topic.changeset(%Topic{})
@@ -14,9 +20,14 @@ defmodule Discuss.TopicController do
     changeset = Topic.changeset(%Topic{}, topic)
 
     case Repo.insert(changeset) do
-      {:ok, topic} -> IO.inspect topic
+      {:ok, topic} ->
+        conn
+        |> put_flash(:info, "Topic successfully created")
+        |> redirect(to: topic_path(conn, :index))
       {:error, changeset} ->
-        render conn, "new.html", changeset: changeset
+        conn
+        |> put_flash(:error, "Cannot save topic")
+        |> render "new.html", changeset: changeset
     end
   end
 end
