@@ -10,6 +10,7 @@ defmodule Discuss.User do
     timestamps()
 
     has_many :topics, Discuss.Topic
+    has_many :comments, Discuss.Comment
   end
 
   def changeset(struct, params \\ %{}) do

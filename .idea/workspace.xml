@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59aedf84-d14f-43a4-9f7a-b5f477174d22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/controllers/plugs/require_auth.ex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/models/comment.ex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/controllers/topic_controller.ex" afterPath="$PROJECT_DIR$/web/controllers/topic_controller.ex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/models/topic.ex" afterPath="$PROJECT_DIR$/web/models/topic.ex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/models/user.ex" afterPath="$PROJECT_DIR$/web/models/user.ex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/topic/index.html.eex" afterPath="$PROJECT_DIR$/web/templates/topic/index.html.eex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/topic/show.html.eex" afterPath="$PROJECT_DIR$/web/templates/topic/show.html.eex" />
     </list>
     <ignored path="discuss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="topic_controller.ex" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/controllers/topic_controller.ex">
+      <file leaf-file-name="comment.ex" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/models/comment.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+            <state relative-caret-position="240">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -55,7 +56,6 @@
         <option value="$PROJECT_DIR$/web/templates/topic/new.html.eex" />
         <option value="$PROJECT_DIR$/web/static/css/app.css" />
         <option value="$PROJECT_DIR$/web/templates/topic/edit.html.eex" />
-        <option value="$PROJECT_DIR$/web/templates/topic/show.html.eex" />
         <option value="$PROJECT_DIR$/mix.exs" />
         <option value="$PROJECT_DIR$/config/config.exs" />
         <option value="$PROJECT_DIR$/priv/repo/migrations/20161228172119_add_users.exs" />
@@ -66,10 +66,13 @@
         <option value="$PROJECT_DIR$/web/controllers/auth_controller.ex" />
         <option value="$PROJECT_DIR$/web/controllers/plugs/require_auth.ex" />
         <option value="$PROJECT_DIR$/priv/repo/migrations/20161228211135_add_user_id_to_topics.exs" />
-        <option value="$PROJECT_DIR$/web/models/user.ex" />
-        <option value="$PROJECT_DIR$/web/models/topic.ex" />
-        <option value="$PROJECT_DIR$/web/templates/topic/index.html.eex" />
         <option value="$PROJECT_DIR$/web/controllers/topic_controller.ex" />
+        <option value="$PROJECT_DIR$/web/templates/topic/show.html.eex" />
+        <option value="$PROJECT_DIR$/web/templates/topic/index.html.eex" />
+        <option value="$PROJECT_DIR$/priv/repo/migrations/20161228220629_create_comments.exs" />
+        <option value="$PROJECT_DIR$/web/models/topic.ex" />
+        <option value="$PROJECT_DIR$/web/models/user.ex" />
+        <option value="$PROJECT_DIR$/web/models/comment.ex" />
       </list>
     </option>
   </component>
@@ -139,6 +142,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discuss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discuss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discuss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discuss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discuss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discuss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,12 +389,12 @@
       <workItem from="1482511755661" duration="1098000" />
       <workItem from="1482592024488" duration="11509000" />
       <workItem from="1482685673293" duration="81000" />
-      <workItem from="1482927597067" duration="20496000" />
+      <workItem from="1482927597067" duration="21816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38685000" />
+    <option name="totallyTimeSpent" value="40005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -374,20 +435,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/priv/repo/migrations/20161111135733_add_topics.exs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/priv/repo/migrations/20161111135733_add_topics.exs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/views/layout_view.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -583,14 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/topic/show.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -828,21 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/router.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <marker date="1482957217000" expanded="true" signature="25:1084" placeholder="do: ..." />
-            <marker date="1482957217000" expanded="true" signature="34:54" placeholder="..." />
-            <marker date="1482957217000" expanded="true" signature="76:257" placeholder="do: ..." />
-            <marker date="1482957217000" expanded="true" signature="275:311" placeholder="do: ..." />
-            <marker date="1482957217000" expanded="true" signature="334:767" placeholder="do: ..." />
-            <marker date="1482957217000" expanded="true" signature="794:978" placeholder="do: ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/controllers/plugs/require_auth.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -871,44 +895,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/models/user.ex">
+    <entry file="file://$PROJECT_DIR$/web/router.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="546">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
-            <marker date="1482959981000" expanded="true" signature="23:383" placeholder="do: ..." />
-            <marker date="1482959981000" expanded="true" signature="33:52" placeholder="..." />
-            <marker date="1482959981000" expanded="true" signature="71:215" placeholder="do: ..." />
-            <marker date="1482959981000" expanded="true" signature="256:378" placeholder="do: ..." />
+            <marker date="1482957217000" expanded="true" signature="25:1084" placeholder="do: ..." />
+            <marker date="1482957217000" expanded="true" signature="34:54" placeholder="..." />
+            <marker date="1482957217000" expanded="true" signature="76:257" placeholder="do: ..." />
+            <marker date="1482957217000" expanded="true" signature="275:311" placeholder="do: ..." />
+            <marker date="1482957217000" expanded="true" signature="334:767" placeholder="do: ..." />
+            <marker date="1482957217000" expanded="true" signature="794:978" placeholder="do: ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/topic_controller.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <marker date="1482962585000" expanded="true" signature="34:2591" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="45:58" placeholder="..." />
+            <marker date="1482962585000" expanded="true" signature="66:90" placeholder="..." />
+            <marker date="1482962585000" expanded="true" signature="292:375" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="435:526" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="573:673" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="732:1199" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="896:1193" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="919:1042" placeholder="-&gt; ..." />
+            <marker date="1482962585000" expanded="true" signature="1069:1185" placeholder="-&gt; ..." />
+            <marker date="1482962585000" expanded="true" signature="1264:1415" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="1483:1968" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="1621:1961" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="1646:1778" placeholder="-&gt; ..." />
+            <marker date="1482962585000" expanded="true" signature="1807:1952" placeholder="-&gt; ..." />
+            <marker date="1482962585000" expanded="true" signature="2012:2190" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="2274:2587" placeholder="do: ..." />
+            <marker date="1482962585000" expanded="true" signature="2399:2579" placeholder="do: ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/topic/show.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/topic/index.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/priv/repo/migrations/20161228220629_create_comments.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1482962959000" expanded="true" signature="49:266" placeholder="do: ..." />
+            <marker date="1482962959000" expanded="true" signature="58:72" placeholder="..." />
+            <marker date="1482962959000" expanded="true" signature="87:262" placeholder="do: ..." />
+            <marker date="1482962959000" expanded="true" signature="118:256" placeholder="do: ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/models/topic.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="320">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
-            <marker date="1482960017000" expanded="true" signature="24:523" placeholder="do: ..." />
-            <marker date="1482960017000" expanded="true" signature="33:52" placeholder="..." />
-            <marker date="1482960017000" expanded="true" signature="121:191" placeholder="do: ..." />
-            <marker date="1482960017000" expanded="true" signature="375:518" placeholder="do: ..." />
+            <marker date="1482963057000" expanded="true" signature="24:563" placeholder="do: ..." />
+            <marker date="1482963057000" expanded="true" signature="33:52" placeholder="..." />
+            <marker date="1482963057000" expanded="true" signature="121:231" placeholder="do: ..." />
+            <marker date="1482963057000" expanded="true" signature="415:558" placeholder="do: ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/topic/index.html.eex">
+    <entry file="file://$PROJECT_DIR$/web/models/user.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <marker date="1482963069000" expanded="true" signature="23:423" placeholder="do: ..." />
+            <marker date="1482963069000" expanded="true" signature="33:52" placeholder="..." />
+            <marker date="1482963069000" expanded="true" signature="71:255" placeholder="do: ..." />
+            <marker date="1482963069000" expanded="true" signature="296:418" placeholder="do: ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/topic_controller.ex">
+    <entry file="file://$PROJECT_DIR$/web/models/comment.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+        <state relative-caret-position="240">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding />
         </state>
       </provider>
