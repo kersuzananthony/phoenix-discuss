@@ -4,6 +4,8 @@ defmodule Discuss.Topic do
   # Inform phoenix what's happen in the database
   schema "topics" do
     field :title, :string
+
+    belongs_to :user, Discuss.User
   end
 
     # struct is the current object in the database
